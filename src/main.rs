@@ -19,7 +19,7 @@ fn main() {
     println!("----------------------------------------------------------------");
     println!("Should print year from max timestamp + 1 second. Logically it should still be 2038");
     println!("Past max timestamp: {}", past_max_date);
-    println!("Due to integer overflow, we're in 1900s. With proper date calc it would be 1901, but less-than-precise check brings us to 1092.");
+    println!("Due to integer overflow, we're in 1900s. With proper date calc it would be 1901, but less-than-precise check brings us to 1902.");
     println!("Still far cry from 2038, which would be the 'logical' value");
     println!("----------------------------------------------------------------");
 }
